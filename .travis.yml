@@ -7,7 +7,3 @@ before_install:
     - sh -e /etc/init.d/xvfb start
 before_script:
     - npm install
-
-
-
-    kkk
