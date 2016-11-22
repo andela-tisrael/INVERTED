@@ -1,32 +1,29 @@
 {
-  "root": true,
-  "extends": "airbnb-base",
   "env": {
-    "node": true,
-    "es6": true,
-    "mocha": true
+    "node": true
   },
   "rules": {
-    "one-var": 0,
-    "one-var-declaration-per-line": 0,
-    "new-cap": 0,
-    "consistent-return": 0,
-    "no-param-reassign": 0,
-    "comma-dangle": 0,
-    "curly": ["error", "multi-line"],
-    "no-shadow": ["error", { "allow": ["req", "res", "err"] }],
-    "valid-jsdoc": ["error", {
-      "requireReturn": true,
-      "requireReturnType": true,
-      "requireParamDescription": false,
-      "requireReturnDescription": true
-    }],
-    "require-jsdoc": ["error", {
-        "require": {
-            "FunctionDeclaration": true,
-            "MethodDefinition": true,
-            "ClassDeclaration": true
-        }
-    }]
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": [2, "never"],
+    "comma-style": [2, "first", { exceptions: {ArrayExpression: true, ObjectExpression: true} }],
+    "complexity": [2, 6],
+    "curly": 2,
+    "eqeqeq": [2, "allow-null"],
+    "max-statements": [2, 30],
+    "no-shadow-restricted-names": 2,
+    "no-undef": 2,
+    "no-use-before-define": 2,
+    "radix": 2,
+    "semi": 2,
+    "space-infix-ops": 2,
+    "strict": 0
+  },
+  "globals": {
+    "AnalysisView": true,
+    "PollingView": true,
+    "Prism": true,
+    "Spinner": true,
+    "Timer": true,
+    "moment": true
   }
 }
