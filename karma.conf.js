@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Tue Nov 22 2016 14:32:17 GMT+0100 (WAT)
+// Generated on Tue Nov 22 2016 15:38:16 GMT+0100 (WAT)
 
 module.exports = function(config) {
   config.set({
@@ -15,8 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'spec/*.js',
-      'js/*.js'
+      'js/inverted-index.js',
+      'spec/inverted-index-test.js'
     ],
 
 

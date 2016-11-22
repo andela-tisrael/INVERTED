@@ -2,7 +2,6 @@
  * Unit tests for src/inverted-index.js
  */
 //
-this.invertedIndex = require("./inverted-index.js");
 var books = [{
         "title": "Alice in Wonderland",
         "text": "Alice falls into a rabbit hole and enters a world full of imagination."
